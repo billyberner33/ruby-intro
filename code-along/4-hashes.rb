@@ -4,6 +4,14 @@
 
 # Hashes are lists of *key-value pairs*
 
-# Accessing data from the hash
+ben = { "name" => "Ben", "location" => "Chicago", "status" => "Entr-924 at Kellogg"}
+
+puts ben
+p ben
+
+# Accessing data from t
+location = ben["location"]
+puts location
 
 # More Complex Hashes
+
